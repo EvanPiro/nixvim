@@ -20,6 +20,19 @@
   plugins.lsp.servers.hls.enable = true;
   plugins.lsp.servers.hls.installGhc = false;
 
+  plugins.lsp.keymaps.lspBuf = {
+    "<C-l>" = "code_action";
+  };
+
+  plugins.lsp.keymaps.diagnostic = {
+    "<C-k>" = "open_float";
+  };
+
+  plugins.lsp.keymaps.lspBuf = {
+    "<C-j>" = "hover";
+  };
+
+
   extraPlugins = [
       pkgs.vimPlugins.haskell-tools-nvim
   ];
