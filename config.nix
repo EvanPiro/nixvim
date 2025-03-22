@@ -19,6 +19,7 @@
     };
   };
 
+  plugins.rustaceanvim.enable = true;
   plugins.web-devicons.enable = true;
   plugins.lsp.servers.nil_ls.enable = true;
   plugins.bufferline.enable = true;
